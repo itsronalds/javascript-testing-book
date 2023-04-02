@@ -31,7 +31,7 @@ Deploy t and maintain the software
 > For example: if you ran two unit tests, you must run an integration test to verify that the system works
 
 * Code Review: takes a few hours to validate you're following standard norms and practices of your team
-* QA: takes a few hours or days to ensure everything workds together as expected
+* QA: takes a few hours or days to ensure everything works together as expected
 
 ## Google Software Test Philosophy
 
