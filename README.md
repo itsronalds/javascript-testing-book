@@ -73,5 +73,26 @@ Deploy t and maintain the software
 * **Integration Tests**: refers to the testing of how elements/components work together
 * **End-to-End Tests - E2E**: refers to the testing of all software functionalities, verify how software is work under real-world scenarios
 
+# Tests Tools
+Following are the best tools for testing software with JavaScript:
 
+## Static Tests
+* [Prettier](https://prettier.io/)
+* [Eslint](https://eslint.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+
+## Unit Tests
+* [Jest](https://jestjs.io/)
+* [Mocha](https://mochajs.org/)
+* [Chai](https://www.chaijs.com/)
+
+## UI Tests
+* [Cypress](https://www.cypress.io/)
+
+## API Tests
+* [Postman](https://www.postman.com/)
+* [Supertest](https://www.npmjs.com/package/supertest)
+
+# Resources
+* [The State of JS:](https://2022.stateofjs.com/en-US/) this website help you to see the best tools for JavaScrip according to each year's survey
 
