@@ -95,4 +95,4 @@ Following are the best tools for testing software with JavaScript:
 
 # Resources
 * [The State of JS:](https://2022.stateofjs.com/en-US/) this website help you to see the best tools for JavaScrip according to each year's survey
-
+* [Generate .gitignore automatically by requirements](https://www.toptal.com/developers/gitignore)
