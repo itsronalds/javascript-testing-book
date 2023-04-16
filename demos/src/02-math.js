@@ -14,25 +14,25 @@ function divide(a, b) {
   return a / b;
 }
 
-function average(...notes) {
-
-  const totalOfNotes = notes.length;
+function average(...grades) {
+  const gradesLength = grades.length;
   let total = 0;
 
-  for (const note of notes) {
+  for (let i = 0; i < gradesLength; i += 1) {
+    const grade = grades[i];
 
-    if (typeof note !== 'number') {
+    if (typeof grade !== 'number') {
       throw new Error('Values must be a number.');
     }
 
-    total += note;
+    total += grade;
   }
 
-  const average = String(total / totalOfNotes);
+  const gradeAverage = String(total / gradesLength);
 
-  const indexOfDod = average.indexOf('.');
+  const dodIndex = gradeAverage.indexOf('.');
 
-  const result = average.slice(0, indexOfDod + 2);
+  const result = gradeAverage.slice(0, dodIndex + 2);
 
   return Math.round(result * 10) / 10;
 }
